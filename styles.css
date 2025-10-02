@@ -1,0 +1,20 @@
+/* POC - DSS Test Styles */
+:root {
+	--logo-height: 10rem;
+	--dss_white: #fff;
+	--dss_black: #000;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--dss_white);
+	color: var(--dss_black);
+}
+
+.logo {
+	background: url('https://placehold.co/200x60/000/fff?text=LOGO');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: var(--logo-height);
+}
